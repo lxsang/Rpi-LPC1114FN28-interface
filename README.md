@@ -1,1 +1,3 @@
 # Rpi-LPC1114FN28-interface
+
+This is a hobby project for an embedded application.  The point is that the Pi  is connected to a circuit based on the LPC1114FN28, in which, the ARM cortex M0 chip is used to collect sensor datas (IR sensor, sonar sensor, etc.) and control some motors using an IC controller. The Pi talks to the LPC1114FN28 via a serial connection (UART or SPI), and takes care of some high level calculations based on the datas provided by the LPC chip, it then can analyse the environment's context and send commands to the slave (ARM) chip for some control. For this prject, i decide to design my own PCB for the interface and write a firmware/middleware for  the interface.
