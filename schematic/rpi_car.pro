@@ -1,6 +1,6 @@
-update=2017 July 25, Tuesday 20:25:04
+update=mar. 27 févr. 2018 13:43:33 CET
 version=1
-last_client=eeschema
+last_client=kicad
 [pcbnew]
 version=1
 LastNetListRead=
@@ -25,19 +25,9 @@ version=1
 NetIExt=net
 [general]
 version=1
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
 [eeschema]
 version=1
-LibDir=/Users/mrsang/Google Drive/ushare/kicadocs/library
+LibDir=library
 [eeschema/libraries]
 LibName1=rpi_car-rescue
 LibName2=power
@@ -75,3 +65,13 @@ LibName33=mcp
 LibName34=/Users/mrsang/Google Drive/ushare/kicadocs/library/LPC1114FN28
 LibName35=/Users/mrsang/Google Drive/ushare/kicadocs/library/mcp
 LibName36=/Users/mrsang/Google Drive/ushare/kicadocs/library/TX0RX0
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
